@@ -1,10 +1,13 @@
-﻿namespace Learning
+﻿using Learning.helpers;
+
+namespace Learning
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var newLogger = new ConsoleLogger();
+            newLogger.Start();
         }
     }
 }
