@@ -1,0 +1,6 @@
+Every executable C# application must contain a class defining a Main() method which is used to signify the entry point of the application
+
+The Main() method can be defined in any class within the application, but then you have to specify the class name when you run the application
+
+You could alter the Main() method to return a value, where a value of 0 indicates success and a -1 indicates failure.
+

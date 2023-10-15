@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Learning": {
+      "commandName": "Project",
+      "commandLineArgs": "-mode -arg1"
+    }
+  }
+}

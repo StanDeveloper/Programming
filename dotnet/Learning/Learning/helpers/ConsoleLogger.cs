@@ -17,5 +17,12 @@
 
             Console.ReadLine();
         }
+
+        public void Stop()
+        {
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadLine();
+            Console.Clear();
+        }
     }
 }
