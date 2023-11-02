@@ -1,4 +1,5 @@
 ﻿using Learning.classes;
+using Learning.delegates;
 using Learning.helpers;
 
 namespace Learning
@@ -11,16 +12,7 @@ namespace Learning
             var newLogger = new ConsoleLogger();
             newLogger.Start();
 
-            var newCommandLine = new CommandLine();
-            newCommandLine.ProcessCommandLineArguments(args);
-            newCommandLine.ProcessCommandLineArguments();
-
-            var newUserData = new UserData();
-            newUserData.QueryUserData();
-            newUserData.PrintUserData();
-            newUserData.UserDataValidation();
-
-            newCommandLine.GetValues();
+           new Car().Run();
 
             newLogger.Stop();
             WaitForEnd();
